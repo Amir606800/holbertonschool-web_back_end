@@ -1,0 +1,2 @@
+// updateing the collection. It will either update the matching document or add a new value to it
+db.school.update({name: "Holberton school"}, {$set: {address: "972 Mission street"}})
