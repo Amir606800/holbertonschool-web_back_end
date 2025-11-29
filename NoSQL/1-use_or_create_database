@@ -1,0 +1,2 @@
+// Creating or switching to a new database. In MongoDb when we switch and insert value into a database it will be created
+use my_db
