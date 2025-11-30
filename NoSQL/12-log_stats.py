@@ -16,6 +16,6 @@ if __name__ == "__main__":
     print(f"{ng_collection.count_documents({})} logs")
     print("Methods:")
     for i in ["GET", "POST", "PUT", "PATCH", "DELETE"]:
-        print(f"	 method {i}: {count(ng_collection, i)}")
+        print(f"	method {i}: {count(ng_collection, i)}")
     print("{} status check".format(ng_collection.count_documents({"path": "/status"})))
 
